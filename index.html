@@ -1,0 +1,179 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="2685.4">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; min-height: 14.0px}
+  </style>
+</head>
+<body>
+<p class="p1">&lt;!DOCTYPE html&gt;</p>
+<p class="p1">&lt;html lang="ar" dir="rtl"&gt;</p>
+<p class="p1">&lt;head&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;meta charset="UTF-8" /&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;meta name="viewport" content="width=device-width, initial-scale=1.0" /&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;title&gt;مكتبة سعيد سامح للبرومبتات&lt;/title&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;script src="https://cdn.tailwindcss.com"&gt;&lt;/script&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;link rel="preconnect" href="https://fonts.googleapis.com"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;link rel="preconnect" href="https://fonts.gstatic.com" crossorigin&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;style&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>body { font-family: 'IBM Plex Sans Arabic', sans-serif; background-color: #ffffff; color: #37352f; text-align: right; }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.notion-shadow { box-shadow: rgba(15, 15, 15, 0.05) 0px 0px 0px 1px, rgba(15, 15, 15, 0.1) 0px 2px 4px; }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.sidebar-item:hover { background-color: rgba(55, 53, 47, 0.08); }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.sidebar-item.active { background-color: rgba(55, 53, 47, 0.08); font-weight: 600; color: #2eaadc; }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.category-card { border: 1px solid #e9e9e7; transition: all 0.2s ease; cursor: pointer; padding: 1.25rem; border-radius: 0.75rem; background-color: #fff; display: flex; flex-direction: column; align-items: center; text-align: center; height: 100%; }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.category-card:hover { transform: translateY(-2px); border-color: #2eaadc; background-color: #fbfbfa; }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.prompt-box { background: #fcfcfc; border: 1px solid #eeeeef; border-radius: 8px; padding: 1rem; margin-bottom: 0.75rem; display: flex; justify-content: space-between; align-items: flex-start; gap: 12px; transition: background 0.2s; }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.prompt-box:hover { background: #f4f4f2; border-color: #d3d3d1; }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.prompt-content { font-size: 0.95rem; line-height: 1.7; color: #37352f; flex: 1; white-space: pre-wrap; }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.copy-btn { background: #fff; border: 1px solid #e9e9e7; padding: 4px 10px; border-radius: 6px; font-size: 0.75rem; cursor: pointer; color: #555; flex-shrink: 0; transition: all 0.2s; }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.copy-btn:hover { background: #2eaadc; color: white; border-color: #2eaadc; }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.icon-box { width: 54px; height: 54px; border-radius: 14px; display: flex; align-items: center; justify-content: center; font-size: 26px; margin-bottom: 0.75rem; }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.toast { position: fixed; bottom: 30px; left: 50%; transform: translateX(-50%); background: #2eaadc; color: white; padding: 10px 24px; border-radius: 30px; display: none; z-index: 1000; font-weight: 500; box-shadow: 0 4px 12px rgba(0,0,0,0.1); }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>::-webkit-scrollbar { width: 6px; }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>::-webkit-scrollbar-thumb { background: #d3d3d1; border-radius: 10px; }</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/style&gt;</p>
+<p class="p1">&lt;/head&gt;</p>
+<p class="p1">&lt;body class="overflow-hidden"&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;div id="toast" class="toast"&gt;تم نسخ النص بنجاح ✨&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;div class="flex h-screen overflow-hidden"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;aside class="w-64 bg-[#fbfbfa] border-l border-[#e9e9e7] flex-shrink-0 hidden lg:flex flex-col"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="p-6 border-b border-[#e9e9e7] flex items-center gap-3"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="w-9 h-9 bg-black rounded flex items-center justify-center text-white font-bold"&gt;S&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;span class="font-bold text-sm"&gt;مكتبة سعيد سامح&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;nav class="flex-1 overflow-y-auto p-2 space-y-0.5" id="sidebarNav"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;button onclick="showHome()" class="sidebar-item w-full text-right px-3 py-2 rounded-md text-sm active" id="btn-home"&gt;🏠 الرئيسية&lt;/button&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="px-3 py-4 text-[10px] font-bold text-gray-400 uppercase tracking-widest border-t mt-2"&gt;الأقسام الـ 12 الكاملة&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div id="sidebarCategories"&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/nav&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/aside&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;main class="flex-1 flex flex-col min-w-0 bg-white relative"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;header class="h-16 border-b border-[#e9e9e7] flex items-center px-6 gap-4 sticky top-0 bg-white z-10"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="relative flex-1 max-w-2xl mx-auto"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;input type="text" id="globalSearch" oninput="handleSearch()" placeholder="ابحث في البرومبتات..." class="w-full bg-[#f4f4f2] border-none rounded-lg py-2.5 pr-4 pl-4 text-sm outline-none focus:ring-1 focus:ring-blue-400"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/header&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="flex-1 overflow-y-auto" id="scrollArea"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="max-w-5xl mx-auto p-6 lg:p-12 text-right"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div id="homeView"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="mb-10 text-center lg:text-right"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;h1 class="text-4xl font-bold mb-3"&gt;المكتبة الكبرى لبرومبتات سعيد 🚀&lt;/h1&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;p class="text-gray-500 text-lg"&gt;مكتبة برومبتات منظمة داخل 12 فئة شاملة.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div id="categoriesGrid" class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4"&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div id="detailView" class="hidden"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;button onclick="showHome()" class="mb-6 text-sm text-blue-600 font-medium hover:underline flex items-center gap-1"&gt;← العودة للرئيسية&lt;/button&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;h2 id="categoryTitle" class="text-3xl font-bold mb-8 pb-4 border-b"&gt;&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div id="promptsList"&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/main&gt;</p>
+<p class="p1">&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;script src="data.js"&gt;&lt;/script&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;script&gt;</p>
+<p dir="rtl" class="p1">// الوظائف الأساسية للموقع</p>
+<p class="p1">function init() { renderSidebar(); renderHome(); }</p>
+<p class="p2"><br></p>
+<p class="p1">function renderSidebar() {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>const container = document.getElementById('sidebarCategories');</p>
+<p class="p1"><span class="Apple-converted-space">    </span>container.innerHTML = '';</p>
+<p class="p1"><span class="Apple-converted-space">    </span>rawData.forEach(cat =&gt; {</p>
+<p class="p1"><span class="Apple-converted-space">        </span>const btn = document.createElement('button');</p>
+<p class="p1"><span class="Apple-converted-space">        </span>btn.className = "sidebar-item w-full text-right px-3 py-1.5 rounded-md text-sm transition-colors flex items-center gap-2 justify-end";</p>
+<p class="p1"><span class="Apple-converted-space">        </span>btn.id = `side-${cat.id}`;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>btn.onclick = () =&gt; showCategory(cat.id);</p>
+<p class="p1"><span class="Apple-converted-space">        </span>btn.innerHTML = `&lt;span class="truncate"&gt;${cat.title}&lt;/span&gt; &lt;span&gt;${cat.icon}&lt;/span&gt;`;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>container.appendChild(btn);</p>
+<p class="p1"><span class="Apple-converted-space">    </span>});</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">function renderHome() {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>const grid = document.getElementById('categoriesGrid');</p>
+<p class="p1"><span class="Apple-converted-space">    </span>grid.innerHTML = '';</p>
+<p class="p1"><span class="Apple-converted-space">    </span>document.getElementById('homeView').classList.remove('hidden');</p>
+<p class="p1"><span class="Apple-converted-space">    </span>document.getElementById('detailView').classList.add('hidden');</p>
+<p class="p1"><span class="Apple-converted-space">    </span>document.querySelectorAll('.sidebar-item').forEach(b =&gt; b.classList.remove('active'));</p>
+<p class="p1"><span class="Apple-converted-space">    </span>document.getElementById('btn-home').classList.add('active');</p>
+<p class="p1"><span class="Apple-converted-space">    </span>rawData.forEach(cat =&gt; {</p>
+<p class="p1"><span class="Apple-converted-space">        </span>const card = document.createElement('div');</p>
+<p class="p1"><span class="Apple-converted-space">        </span>card.className = "category-card notion-shadow";</p>
+<p class="p1"><span class="Apple-converted-space">        </span>card.onclick = () =&gt; showCategory(cat.id);</p>
+<p class="p1"><span class="Apple-converted-space">        </span>card.innerHTML = `&lt;div class="icon-box" style="background-color: ${cat.color}"&gt;${cat.icon}&lt;/div&gt;&lt;div class="font-bold text-[13px] leading-tight text-gray-700"&gt;${cat.title}&lt;/div&gt;&lt;div class="text-[10px] text-gray-400 mt-2"&gt;${cat.items.length} برومبت&lt;/div&gt;`;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>grid.appendChild(card);</p>
+<p class="p1"><span class="Apple-converted-space">    </span>});</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">function showCategory(catId) {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>const cat = rawData.find(c =&gt; c.id === catId);</p>
+<p class="p1"><span class="Apple-converted-space">    </span>if (!cat) return;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>document.getElementById('homeView').classList.add('hidden');</p>
+<p class="p1"><span class="Apple-converted-space">    </span>document.getElementById('detailView').classList.remove('hidden');</p>
+<p class="p1"><span class="Apple-converted-space">    </span>document.getElementById('categoryTitle').innerText = `${cat.icon} ${cat.title}`;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>document.querySelectorAll('.sidebar-item').forEach(b =&gt; b.classList.remove('active'));</p>
+<p class="p1"><span class="Apple-converted-space">    </span>const sideBtn = document.getElementById(`side-${catId}`);</p>
+<p class="p1"><span class="Apple-converted-space">    </span>if (sideBtn) sideBtn.classList.add('active');</p>
+<p class="p1"><span class="Apple-converted-space">    </span>renderPrompts(cat.items);</p>
+<p class="p1"><span class="Apple-converted-space">    </span>document.getElementById('scrollArea').scrollTo({ top: 0, behavior: 'smooth' });</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">function renderPrompts(prompts) {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>const list = document.getElementById('promptsList');</p>
+<p class="p1"><span class="Apple-converted-space">    </span>list.innerHTML = '';</p>
+<p class="p1"><span class="Apple-converted-space">    </span>prompts.forEach((p, index) =&gt; {</p>
+<p class="p1"><span class="Apple-converted-space">        </span>const box = document.createElement('div');</p>
+<p class="p1"><span class="Apple-converted-space">        </span>box.className = "prompt-box notion-shadow";</p>
+<p class="p1"><span class="Apple-converted-space">        </span>box.innerHTML = `&lt;div class="prompt-content"&gt;&lt;span class="text-gray-300 ml-2"&gt;#${index+1}&lt;/span&gt;${p}&lt;/div&gt;&lt;button class="copy-btn" onclick="copyText(this)"&gt;نسخ&lt;/button&gt;`;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>list.appendChild(box);</p>
+<p class="p1"><span class="Apple-converted-space">    </span>});</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">function handleSearch() {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>const query = document.getElementById('globalSearch').value.trim().toLowerCase();</p>
+<p class="p1"><span class="Apple-converted-space">    </span>if (!query) { renderHome(); return; }</p>
+<p class="p1"><span class="Apple-converted-space">    </span>document.getElementById('homeView').classList.add('hidden');</p>
+<p class="p1"><span class="Apple-converted-space">    </span>document.getElementById('detailView').classList.remove('hidden');</p>
+<p class="p1"><span class="Apple-converted-space">    </span>document.getElementById('categoryTitle').innerText = "🔍 نتائج البحث";</p>
+<p class="p1"><span class="Apple-converted-space">    </span>const results = [];</p>
+<p class="p1"><span class="Apple-converted-space">    </span>rawData.forEach(cat =&gt; {</p>
+<p class="p1"><span class="Apple-converted-space">        </span>cat.items.forEach(p =&gt; {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>if (p.toLowerCase().includes(query)) results.push(p);</p>
+<p class="p1"><span class="Apple-converted-space">        </span>});</p>
+<p class="p1"><span class="Apple-converted-space">    </span>});</p>
+<p class="p1"><span class="Apple-converted-space">    </span>renderPrompts(results);</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">function copyText(btn) {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>const text = btn.previousElementSibling.innerText.replace(/#\d+\s/, '');</p>
+<p class="p1"><span class="Apple-converted-space">    </span>navigator.clipboard.writeText(text).then(() =&gt; {</p>
+<p class="p1"><span class="Apple-converted-space">        </span>const toast = document.getElementById('toast');</p>
+<p class="p1"><span class="Apple-converted-space">        </span>toast.style.display = 'block';</p>
+<p class="p1"><span class="Apple-converted-space">        </span>setTimeout(() =&gt; { toast.style.display = 'none'; }, 1500);</p>
+<p class="p1"><span class="Apple-converted-space">    </span>});</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">function showHome() {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>document.getElementById('globalSearch').value = '';</p>
+<p class="p1"><span class="Apple-converted-space">    </span>renderHome();</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">window.onload = init;</p>
+<p class="p1">&lt;/script&gt;</p>
+<p class="p1">&lt;/body&gt;</p>
+<p class="p1">&lt;/html&gt;</p>
+</body>
+</html>
